@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <!-- Fav Icon -->
+    <link rel=" shortcut icon" href="" type="image/svg+xml">
+    <!-- Style Css -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="Stylesheet" href="./assets/Css/style1.css">
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <!-- Header  -->
+     <div class="container">
+      
+      <header>
+          
+          <a href="#"><img  src="./assets/Img/logo.png" alt="Apple" class="logo"></a>
+          <ul>
+              <li> <a href="index.html"> Home</a></li>
+              <li> <a href="about.html"> About</a></li>
+              <li> <a href="Contact.html"> Contact Us</a></li>
+              <li> 
+                <a href="#"> 
+                  
+                  <i class="fa fa-shopping-cart" >
+                  <span id="cart-count">0</span>
+                </i>
+               </a></li>
+             
+
+          </ul>
+      </header>
+  
+  
+      <!-- End Header -->
+
+      <!-- Contant -->
+   <div class="content" > 
+          <div class="text">
+              <h2>Mo  13 pro max </h2>
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur 
+                  adipisicing elit. Accusantium itaque
+                   veniam iure officiis?
+              </p>
+              <a href="#">All Products</a>
+                   
+          </div>
+          <div class="image">
+              <img src="./assets/Img/2.png" class="img-content">
+          </div>
+   </div>
+    <section class="main-image-slider">
+        <section class="image-slider">
+          <div class="arrow-left" onclick="changeColor('#50e6c5')" >
+            <i  class="fas fa-arrow-right"></i>
+          </div>
+          <div class="arrow-right" onclick="changeColor('#247ec8') ">
+            <i  class="fas fa-arrow-left"></i>
+            
+          </div>
+        </section>
+    </section> 
+    
+    </div>
+    <section class="feature">
+      <div onclick="showImage()" id="rolex" class="rolex">
+          <img src="./assets/Img/p1.png" alt="">
+          <h6>Mo </h6>
+      </div>
+      <div onclick="showImage2()" id="mont" class="rolex">
+        <img src="./assets/Img/p2.png" alt="">
+        <h6>I Phone 14 Black</h6>
+      </div>
+      <div onclick="showImage3()" id="fossil" class="rolex">
+        <img src="./assets/Img/p3.png" alt="">
+        <h6>Iphone 12 pro</h6>
+      </div>
+      <div onclick="showImage4()" id="omega" class="rolex">
+        <img src="./assets/Img/p4.png" alt="">
+        <h6>Tv Apple</h6>
+      </div>
+      <div onclick="showImage5()" id="chopard" class="rolex">
+        <img src="./assets/Img/p1.png" alt="">
+        <h6>Mo</h6>
+      </div>
+  </section>
+
+
+
+
+
+  <p id="p1">Mo Apple   </p>
+  <section id="imgdiv1" class="product">
+      <div class="imagdiv">
+          <img src="./assets/Img/ph1.jpg" alt="">
+          <h6>10.000$</h6>
+          <button id="cart-button" onclick="addToCart()">
+            <h6>Add</h6>
+          </button>
+      </div>
+      <!-- <div class="imagdiv">
+        <img src="./assets/Img/ph1.jpg" alt="">
+        <h6>15.000$</h6>
+          <button id="cart-button" onclick="addToCart()">
+              <h6>Add</h6>
+          </button>
+      </div> -->
+  </section>
+
+
+
+
+
+
+
+
+
+  <p id="p2">I Phone 14 Black </p>
+  <section id="imgdiv2" class="product">
+      <div class="imagdiv">
+        <img src="./assets/Img/im2.png" alt="">
+        <h6>12.370$</h6>
+          <button id="cart-button" onclick="addToCart()">
+              <h6>Add</h6>
+          </button>
+      </div>
+      <div class="imagdiv">
+        <img src="./assets/Img/im1.webp" alt="">
+        <h6>12.370$</h6>
+          <button id="cart-button" onclick="addToCart()">
+              <h6>Add</h6>
+          </button>
+      </div>
+    
+
+  </section>
+
+
+
+
+
+
+
+  <p id="p3"> I Phone 12 Pro </p>
+  <section id="imgdiv3" class="product">
+      <div class="imagdiv">
+        <img src="./assets/Img/ph1.jpg" alt="">
+        <h6>16.000$</h6>
+          <button id="cart-button" onclick="addToCart()">
+              <h6>Add</h6>
+          </button>
+
+      </div>
+      <div class="imagdiv">
+        <img src="./assets/Img/ph1.jpg" alt="">
+        <h6>16.000$</h6>
+          <button id="cart-button" onclick="addToCart()">
+              <h6>Add</h6>
+          </button>
+
+      </div>
+     
+  </section>
+
+
+
+
+
+  <p id="p4">TV Apple  </p>
+  <section id="imgdiv4" class="product">
+      <div class="imagdiv">
+        <img src="./assets/Img/ph1.jpg" alt="">
+        <h6>12.370$</h6>
+          <button id="cart-button" onclick="addToCart()">
+              <h6>Add</h6>
+          </button>
+      </div>
+      <div class="imagdiv">
+        <img src="./assets/Img/ph1.jpg" alt="">
+        <h6>16.000$</h6>
+          <button id="cart-button" onclick="addToCart()">
+              <h6>Add</h6>
+          </button>
+      </div>
+     
+
+  </section>
+
+
+
+
+
+
+  <p id="p5">Mo </p>
+  <section id="imgdiv5" class="product">
+      <div class="imagdiv">
+        <img src="./assets/Img/ph1.jpg" alt="">
+        <h6>6.000$</h6>
+          <button id="cart-button" onclick="addToCart()">
+              <h6>Add</h6>
+          </button>
+      </div>
+      <div class="imagdiv">
+        <img src="./assets/Img/ph1.jpg" alt="">
+        <h6>6.000$</h6>
+          <button id="cart-button" onclick="addToCart()">
+              <h6>Add</h6>
+          </button>
+      </div>
+    </section>
+
+    <footer class="fot">
+      <p>&copy; 2023 My Company. All rights reserved ITI.</p>
+      <ul class="social-icons">
+          <li><a href="https://www.facebok.com"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://www.gmail.com"><i class="fab fa-google"></i></a></li>
+  
+      </ul>
+  </footer>
+  
+</div>
+    <!-- Script Js  -->
+    <script src="assets/Js/main.js" ></script>
+     <!-- ionicon link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
